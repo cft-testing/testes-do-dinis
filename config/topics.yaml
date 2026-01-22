@@ -1,0 +1,127 @@
+# Predefined major topics for CFT Trend Radar
+
+topics:
+  - name: Artificial Intelligence & Machine Learning
+    keywords:
+      - AI
+      - machine learning
+      - deep learning
+      - neural networks
+      - GPT
+      - LLM
+      - large language model
+      - generative AI
+    relevance: high
+
+  - name: Insurance Technology (InsurTech)
+    keywords:
+      - insurtech
+      - digital insurance
+      - insurance automation
+      - parametric insurance
+      - embedded insurance
+      - insurance API
+    relevance: high
+
+  - name: Customer Experience & Digital Transformation
+    keywords:
+      - customer experience
+      - CX
+      - digital transformation
+      - omnichannel
+      - personalization
+      - customer journey
+    relevance: high
+
+  - name: Financial Technology (FinTech)
+    keywords:
+      - fintech
+      - digital banking
+      - payment systems
+      - blockchain
+      - cryptocurrency
+      - DeFi
+      - open banking
+    relevance: medium
+
+  - name: Data & Analytics
+    keywords:
+      - big data
+      - data analytics
+      - business intelligence
+      - predictive analytics
+      - data science
+      - data governance
+    relevance: high
+
+  - name: Cloud & Infrastructure
+    keywords:
+      - cloud computing
+      - AWS
+      - Azure
+      - Google Cloud
+      - infrastructure
+      - DevOps
+      - microservices
+    relevance: medium
+
+  - name: Cybersecurity
+    keywords:
+      - cybersecurity
+      - data protection
+      - GDPR
+      - privacy
+      - security breach
+      - ransomware
+      - zero trust
+    relevance: high
+
+  - name: Automation & RPA
+    keywords:
+      - automation
+      - RPA
+      - robotic process automation
+      - workflow automation
+      - intelligent automation
+    relevance: medium
+
+  - name: IoT & Connected Devices
+    keywords:
+      - IoT
+      - Internet of Things
+      - connected devices
+      - smart home
+      - wearables
+      - telematics
+    relevance: medium
+
+  - name: Sustainability & ESG
+    keywords:
+      - sustainability
+      - ESG
+      - green tech
+      - carbon footprint
+      - climate tech
+      - renewable energy
+    relevance: medium
+
+  - name: Regulatory & Compliance
+    keywords:
+      - regulation
+      - compliance
+      - GDPR
+      - regulatory technology
+      - regtech
+      - legal tech
+    relevance: medium
+
+  - name: Startups & Venture Capital
+    keywords:
+      - startup
+      - venture capital
+      - funding
+      - investment
+      - unicorn
+      - series A
+      - IPO
+    relevance: low

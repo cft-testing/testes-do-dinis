@@ -1,0 +1,28 @@
+[Unit]
+Description=CFT Trend Radar Newsletter Service
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+Group=YOUR_GROUP
+WorkingDirectory=/path/to/testes-do-dinis
+Environment="PATH=/path/to/testes-do-dinis/venv/bin"
+
+# Load environment variables from .env file
+EnvironmentFile=/path/to/testes-do-dinis/.env
+
+# Run the scheduler
+ExecStart=/path/to/testes-do-dinis/venv/bin/python main.py schedule
+
+# Restart policy
+Restart=always
+RestartSec=10
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=trend-radar
+
+[Install]
+WantedBy=multi-user.target

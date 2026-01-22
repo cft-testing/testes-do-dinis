@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  trend-radar:
+    build: .
+    container_name: cft-trend-radar
+    env_file: .env
+    volumes:
+      # Persist newsletter history
+      - ./data:/app/data
+      # Mount config for easy editing
+      - ./config:/app/config
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Lisbon
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

@@ -1,0 +1,86 @@
+# General settings for CFT Trend Radar Newsletter
+
+newsletter:
+  name: "CFT Trend Radar"
+  subtitle: "Weekly Innovation & Technology Insights"
+  sections:
+    - id: worldwide
+      title: "🌍 Tendências Mundiais"
+      description: "Notícias e desenvolvimentos globais relevantes"
+      min_items: 1
+      max_items: 5
+
+    - id: portugal
+      title: "🇵🇹 Panorama Nacional"
+      description: "Inovação e tecnologia em Portugal"
+      min_items: 1
+      max_items: 5
+
+    - id: ventures
+      title: "🚀 Sofia & FIXO"
+      description: "Insights relevantes para as ventures do CFT"
+      min_items: 1
+      max_items: 5
+
+# Content relevance thresholds
+relevance:
+  # Minimum score (0-10) for content to be included
+  min_score: 6.0
+
+  # Weights for each assessment criteria (total should be 1.0)
+  weights:
+    business_relevance: 0.20
+    disruptive_potential: 0.15
+    internal_know_how: 0.10
+    market_potential: 0.15
+    need_for_action: 0.10
+    strategic_fit: 0.15
+    time_to_market_impact: 0.10
+    trend_maturity: 0.05
+
+# Context management
+context:
+  # Number of past newsletters to consider for avoiding repetition
+  history_window: 8
+
+  # Similarity threshold (0-1) to consider content as duplicate
+  similarity_threshold: 0.75
+
+  # Days to consider content as "recent" and potentially duplicate
+  recent_days: 14
+
+# Content fetching
+fetching:
+  # Maximum age of news to consider (in days)
+  max_age_days: 7
+
+  # Timeout for web requests (seconds)
+  request_timeout: 30
+
+  # Number of articles to fetch per source
+  articles_per_source: 10
+
+# AI Model settings
+ai:
+  # Model to use (openai or anthropic)
+  provider: anthropic
+
+  # Model name
+  model: claude-3-5-sonnet-20241022
+
+  # Temperature for content generation
+  temperature: 0.3
+
+  # Maximum tokens for analysis
+  max_tokens: 4000
+
+# Scheduling
+schedule:
+  # When to send newsletter (monday, tuesday, etc.)
+  day: monday
+
+  # Time to send (24h format)
+  time: "09:00"
+
+  # Timezone
+  timezone: "Europe/Lisbon"

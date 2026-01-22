@@ -1,0 +1,112 @@
+# News sources configuration for Trend Radar Newsletter
+
+worldwide:
+  # Technology and Innovation
+  - name: TechCrunch
+    url: https://techcrunch.com
+    rss: https://techcrunch.com/feed/
+    type: rss
+
+  - name: The Verge
+    url: https://www.theverge.com
+    rss: https://www.theverge.com/rss/index.xml
+    type: rss
+
+  - name: MIT Technology Review
+    url: https://www.technologyreview.com
+    rss: https://www.technologyreview.com/feed/
+    type: rss
+
+  - name: Wired
+    url: https://www.wired.com
+    rss: https://www.wired.com/feed/rss
+    type: rss
+
+  # Business and Finance
+  - name: Financial Times - Technology
+    url: https://www.ft.com/technology
+    type: web
+
+  - name: Bloomberg Technology
+    url: https://www.bloomberg.com/technology
+    type: web
+
+  - name: Reuters Technology
+    url: https://www.reuters.com/technology
+    rss: https://www.reuters.com/technology/rss
+    type: rss
+
+  # Insurance and Fintech
+  - name: InsurTech Insider
+    url: https://www.insurtechinsights.com
+    type: web
+
+  - name: Insurance Journal
+    url: https://www.insurancejournal.com
+    rss: https://www.insurancejournal.com/feed/
+    type: rss
+
+  - name: Fintech News
+    url: https://www.fintechnews.org
+    type: web
+
+portugal:
+  - name: ECO - Tecnologia
+    url: https://eco.sapo.pt/categoria/tecnologia/
+    rss: https://eco.sapo.pt/categoria/tecnologia/feed/
+    type: rss
+
+  - name: Dinheiro Vivo - Tecnologia
+    url: https://www.dinheirovivo.pt/tecnologia/
+    type: web
+
+  - name: Observador - Tecnologia
+    url: https://observador.pt/seccao/tecnologia/
+    type: web
+
+  - name: Jornal de Negócios - Tecnologia
+    url: https://www.jornaldenegocios.pt/tecnologia
+    type: web
+
+  - name: StartUp Portugal
+    url: https://startupportugal.com
+    type: web
+
+  - name: Portugal Fintech
+    url: https://www.portugalfintech.org
+    type: web
+
+  - name: Insurtech PT
+    url: https://www.linkedin.com/company/insurtech-pt/
+    type: linkedin
+
+ventures:
+  # Sofia (Assistente Virtual)
+  keywords:
+    - "virtual assistant"
+    - "conversational AI"
+    - "chatbot"
+    - "voice assistant"
+    - "NLP"
+    - "natural language"
+    - "customer service AI"
+
+  # FIXO (Home Services)
+  keywords:
+    - "home services"
+    - "on-demand services"
+    - "gig economy"
+    - "service marketplace"
+    - "home maintenance"
+    - "repair services"
+    - "service platform"
+
+  sources:
+    - name: TechCrunch - AI
+      url: https://techcrunch.com/category/artificial-intelligence/
+      rss: https://techcrunch.com/category/artificial-intelligence/feed/
+      type: rss
+
+    - name: VentureBeat - AI
+      url: https://venturebeat.com/category/ai/
+      type: web
