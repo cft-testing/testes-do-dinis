@@ -1,0 +1,27 @@
+{
+  "agent": {
+    "name": "FIXO Competitive Intelligence Agent",
+    "version": "1.0.0",
+    "language": "pt"
+  },
+  "schedule": {
+    "full_scan_interval_hours": 24,
+    "quick_check_interval_hours": 6
+  },
+  "storage": {
+    "snapshots_dir": "data/snapshots",
+    "reports_dir": "data/reports",
+    "max_snapshots_per_company": 90
+  },
+  "scraping": {
+    "request_timeout_seconds": 30,
+    "delay_between_requests_seconds": 2,
+    "max_retries": 3,
+    "user_agent": "FIXO-CompetitiveIntel/1.0"
+  },
+  "reporting": {
+    "formats": ["terminal", "markdown", "json"],
+    "default_format": "terminal",
+    "include_unchanged": false
+  }
+}
