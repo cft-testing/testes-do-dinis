@@ -1,0 +1,89 @@
+{
+  "companies": [
+    {
+      "id": "fixo",
+      "name": "FIXO",
+      "website": "https://fixo.pt",
+      "category": "own",
+      "description": "A nossa empresa - serviços domésticos em Portugal",
+      "sources": {
+        "website": "https://fixo.pt",
+        "blog": "https://fixo.pt/blog",
+        "app_store": "https://apps.apple.com/app/fixo",
+        "play_store": "https://play.google.com/store/apps/details?id=pt.fixo"
+      },
+      "track": [
+        "services",
+        "pricing",
+        "locations",
+        "promotions",
+        "business_model"
+      ]
+    },
+    {
+      "id": "oscar",
+      "name": "Oscar (Oscar App)",
+      "website": "https://oscarapp.pt",
+      "category": "competitor",
+      "description": "Plataforma de serviços domésticos - concorrente direto",
+      "sources": {
+        "website": "https://oscarapp.pt",
+        "app_store": "https://apps.apple.com/app/oscar-app",
+        "play_store": "https://play.google.com/store/apps/details?id=com.oscar"
+      },
+      "track": [
+        "services",
+        "pricing",
+        "locations",
+        "promotions",
+        "business_model"
+      ]
+    },
+    {
+      "id": "taskrabbit",
+      "name": "TaskRabbit",
+      "website": "https://www.taskrabbit.com",
+      "category": "competitor",
+      "description": "Marketplace de serviços domésticos - referência internacional",
+      "sources": {
+        "website": "https://www.taskrabbit.com",
+        "blog": "https://www.taskrabbit.com/blog",
+        "app_store": "https://apps.apple.com/app/taskrabbit",
+        "play_store": "https://play.google.com/store/apps/details?id=com.taskrabbit"
+      },
+      "track": [
+        "services",
+        "pricing",
+        "locations",
+        "promotions",
+        "business_model"
+      ]
+    },
+    {
+      "id": "webel",
+      "name": "Webel",
+      "website": "https://webel.pt",
+      "category": "competitor",
+      "description": "Plataforma de serviços domésticos - concorrente direto",
+      "sources": {
+        "website": "https://webel.pt",
+        "app_store": "https://apps.apple.com/app/webel",
+        "play_store": "https://play.google.com/store/apps/details?id=com.webel"
+      },
+      "track": [
+        "services",
+        "pricing",
+        "locations",
+        "promotions",
+        "business_model"
+      ]
+    }
+  ],
+  "tracking_categories": {
+    "services": "Novos serviços adicionados ou removidos",
+    "pricing": "Alterações nos preços base ou modelos de preço",
+    "locations": "Novas localizações ou retirada de zonas de operação",
+    "promotions": "Cupões de desconto, promoções, ofertas especiais",
+    "business_model": "Mudanças no modelo de negócio, parcerias, estratégia"
+  }
+}
